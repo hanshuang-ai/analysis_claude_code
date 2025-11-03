@@ -3993,3 +3993,113 @@
     "stop_hook_active": false
   }
 }
+{
+  "ts": "2025-11-03T07:52:04Z",
+  "event": "SessionEnd",
+  "phase": "",
+  "message": "SessionEnd事件正在执行",
+  "description": "会话结束时触发，常用于收尾与清理。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#sessionend",
+  "payload": {
+    "session_id": "e43e4a45-d739-47e8-82fc-12303bdb3223",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/e43e4a45-d739-47e8-82fc-12303bdb3223.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy/bin",
+    "hook_event_name": "SessionEnd",
+    "reason": "prompt_input_exit"
+  }
+}
+{
+  "ts": "2025-11-03T07:52:10Z",
+  "event": "SessionStart",
+  "phase": "",
+  "message": "SessionStart事件正在执行",
+  "description": "会话启动相关事件，初始化或恢复上下文。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#sessionstart",
+  "payload": {
+    "session_id": "da73ce50-e93b-4a1d-a505-310b50263ec8",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/da73ce50-e93b-4a1d-a505-310b50263ec8.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code",
+    "hook_event_name": "SessionStart",
+    "source": "startup"
+  }
+}
+{
+  "ts": "2025-11-03T07:52:20Z",
+  "event": "SubagentStop",
+  "phase": "",
+  "message": "SubagentStop事件正在执行",
+  "description": "子代理任务完成时触发，用于记录子任务结束。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#subagentstop",
+  "payload": {
+    "session_id": "da73ce50-e93b-4a1d-a505-310b50263ec8",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/da73ce50-e93b-4a1d-a505-310b50263ec8.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code",
+    "permission_mode": "default",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false
+  }
+}
+{
+  "ts": "2025-11-03T07:52:21Z",
+  "event": "UserPromptSubmit",
+  "phase": "",
+  "message": "UserPromptSubmit事件正在执行",
+  "description": "用户提交提示前触发，可进行提示校验或增强。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#userpromptsubmit",
+  "payload": {
+    "session_id": "cf790f7b-4eb8-4ebe-82c0-df9bb1d922a4",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/cf790f7b-4eb8-4ebe-82c0-df9bb1d922a4.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code",
+    "permission_mode": "default",
+    "hook_event_name": "UserPromptSubmit",
+    "prompt": "js对象"
+  }
+}
+{
+  "ts": "2025-11-03T07:52:27Z",
+  "event": "Stop",
+  "phase": "",
+  "message": "Stop事件正在执行",
+  "description": "主代理完成响应时触发（用户中断不触发）。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#stop",
+  "payload": {
+    "session_id": "cf790f7b-4eb8-4ebe-82c0-df9bb1d922a4",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/cf790f7b-4eb8-4ebe-82c0-df9bb1d922a4.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code",
+    "permission_mode": "default",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  }
+}
+{
+  "ts": "2025-11-03T07:53:32Z",
+  "event": "UserPromptSubmit",
+  "phase": "",
+  "message": "UserPromptSubmit事件正在执行",
+  "description": "用户提交提示前触发，可进行提示校验或增强。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#userpromptsubmit",
+  "payload": {
+    "session_id": "da73ce50-e93b-4a1d-a505-310b50263ec8",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/da73ce50-e93b-4a1d-a505-310b50263ec8.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code",
+    "permission_mode": "default",
+    "hook_event_name": "UserPromptSubmit",
+    "prompt": "js数组排序"
+  }
+}
+{
+  "ts": "2025-11-03T07:53:39Z",
+  "event": "Stop",
+  "phase": "",
+  "message": "Stop事件正在执行",
+  "description": "主代理完成响应时触发（用户中断不触发）。",
+  "doc_url": "https://docs.claude.com/zh-CN/docs/claude-code/hooks#stop",
+  "payload": {
+    "session_id": "da73ce50-e93b-4a1d-a505-310b50263ec8",
+    "transcript_path": "/Users/ax/.claude/projects/-Users-ax-Desktop-playground-analysis-claude-code/da73ce50-e93b-4a1d-a505-310b50263ec8.jsonl",
+    "cwd": "/Users/ax/Desktop/playground/analysis_claude_code",
+    "permission_mode": "default",
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
+  }
+}
