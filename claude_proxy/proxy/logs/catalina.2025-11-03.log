@@ -1,0 +1,38 @@
+03-Nov-2025 15:47:23.760 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.105
+03-Nov-2025 15:47:23.766 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 7 2025 18:36:02 UTC
+03-Nov-2025 15:47:23.767 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.105.0
+03-Nov-2025 15:47:23.767 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+03-Nov-2025 15:47:23.767 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.16
+03-Nov-2025 15:47:23.767 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+03-Nov-2025 15:47:23.767 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Users/ax/java/jdk-11.0.2.jdk/Contents/Home
+03-Nov-2025 15:47:23.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.2+9
+03-Nov-2025 15:47:23.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+03-Nov-2025 15:47:23.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy
+03-Nov-2025 15:47:23.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy
+03-Nov-2025 15:47:23.788 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2025 15:47:23.788 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+03-Nov-2025 15:47:23.788 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Nov-2025 15:47:23.788 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2025 15:47:23.788 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy/conf/logging.properties
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Nov-2025 15:47:23.789 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.io.useCanonCaches=false
+03-Nov-2025 15:47:23.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Nov-2025 15:47:23.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+03-Nov-2025 15:47:23.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy
+03-Nov-2025 15:47:23.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy
+03-Nov-2025 15:47:23.790 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy/temp
+03-Nov-2025 15:47:23.796 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/ax/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+03-Nov-2025 15:47:24.152 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8888"]
+03-Nov-2025 15:47:24.197 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[747]毫秒内初始化
+03-Nov-2025 15:47:24.263 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+03-Nov-2025 15:47:24.263 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.105]
+03-Nov-2025 15:47:24.287 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy/webapps/proxy.war]
+03-Nov-2025 15:47:25.381 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+03-Nov-2025 15:47:25.738 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/ax/Desktop/playground/analysis_claude_code/claude_proxy/proxy/webapps/proxy.war]的部署已在[1,446]ms内完成
+03-Nov-2025 15:47:25.764 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8888"]
+03-Nov-2025 15:47:25.804 信息 [main] org.apache.catalina.startup.Catalina.start [1605]毫秒后服务器启动
