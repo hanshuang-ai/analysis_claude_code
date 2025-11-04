@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh PreToolUse",
+            "command": "node ./.claude/hooks/event_logger.js PreToolUse",
             "timeout": 5
           }
         ]
@@ -19,7 +19,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh PostToolUse",
+            "command": "node ./.claude/hooks/event_logger.js PostToolUse",
             "timeout": 5
           }
         ]
@@ -30,7 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh UserPromptSubmit",
+            "command": "node ./.claude/hooks/event_logger.js UserPromptSubmit",
             "timeout": 5
           }
         ]
@@ -41,7 +41,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh Notification",
+            "command": "node ./.claude/hooks/event_logger.js Notification",
             "timeout": 5
           }
         ]
@@ -52,7 +52,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh Stop",
+            "command": "node ./.claude/hooks/event_logger.js Stop",
             "timeout": 5
           }
         ]
@@ -63,7 +63,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh SubagentStop",
+            "command": "node ./.claude/hooks/event_logger.js SubagentStop",
             "timeout": 5
           }
         ]
@@ -75,7 +75,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh PreCompact manual",
+            "command": "node ./.claude/hooks/event_logger.js PreCompact manual",
             "timeout": 5
           }
         ]
@@ -85,7 +85,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh PreCompact auto",
+            "command": "node ./.claude/hooks/event_logger.js PreCompact auto",
             "timeout": 5
           }
         ]
@@ -97,7 +97,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh SessionStart",
+            "command": "node ./.claude/hooks/event_logger.js SessionStart",
             "timeout": 5
           }
         ]
@@ -108,7 +108,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/event_logger.sh SessionEnd",
+            "command": "node ./.claude/hooks/event_logger.js SessionEnd",
             "timeout": 5
           }
         ]
